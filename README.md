@@ -164,3 +164,8 @@ Use verified public sources and avoid storing unnecessary personal information. 
 ## 13. License
 
 Choose and add an appropriate open-source license before publishing this project.
+## System Architecture
+
+The AI-Powered Public Information Chatbot follows a modular architecture. The frontend accepts user queries, the FastAPI backend processes requests, and the intent classifier and semantic search identify relevant public information. A locally running Ollama LLM generates contextual responses for the user.
+
+![System Architecture](docs/architecture.png)
